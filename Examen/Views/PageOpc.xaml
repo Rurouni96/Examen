@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen.Views.PageOpc">
+    
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Image Source="https://web.ucenm.net/wp-content/themes/edumy/images/logo.png"
+                   VerticalOptions="CenterAndExpand">
+
+            </Image>
+
+            <Label Text="Opciones:"
+                   TextColor="Black"
+                   TextDecorations="Underline"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
+
+            <Button x:Name="btninsertar" Text="Insertar" Clicked="btninsertar_Clicked" />
+            <Button x:Name="btnactualizar" Text="Actualizar" Clicked="btnactualizar_Clicked" />
+            <Button x:Name="btneliminar" Text="Eliminar" Clicked="btneliminar_Clicked" />
+            <Button x:Name="btninicio" Text="Inicio" Clicked="btninicio_Clicked" />
+
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
